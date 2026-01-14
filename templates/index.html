@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PLUS X FITNESS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header>
+    <img src="{{ url_for('static', filename='gym logo.png') }}" alt="Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="membership.html">Membership</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <img src="{{ url_for('static', filename='star.jpg') }}" alt="Star Background">
+    <div class="hero-text">
+        <h1>PLUS X FITNESS</h1>
+        <p>Strength. Power. Performance.</p>
+        <button class="btn">Join Now</button>
+    </div>
+</section>
+
+<section>
+    <h2>Our Gallery</h2>
+    <div class="equipments">
+        <div class="equip-card"><img src="{{ url_for('static', filename='bicep.jpg') }}" alt=""><div class="desc">Bicep Workout</div></div>
+        <div class="equip-card"><img src="{{ url_for('static', filename='body.jpg') }}" alt=""><div class="desc">Body Training</div></div>
+        <div class="equip-card"><img src="{{ url_for('static', filename='legpress.jpg') }}" alt=""><div class="desc">Legpress Machine</div></div>
+    </div>
+</section>
+
+<footer>
+    © 2025 PLUS X FITNESS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
